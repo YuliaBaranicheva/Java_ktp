@@ -1,12 +1,13 @@
 package com.company;
 
 //Трехмерный класс точки в евклидовом пространстве
-public class Point3d {
+public class Point3d extends Point2d {
     private double xCoord; //Координаты Х
     private double yCoord; //Координаты Y
     private double zCoord; //Координаты Z
     //Конструктор инициализации
     public Point3d (double x, double y, double z){
+        super(x,y);
         xCoord = x;
         yCoord = y;
         zCoord = z;
