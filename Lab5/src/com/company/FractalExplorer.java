@@ -88,8 +88,6 @@ public class FractalExplorer {
         ButtonHandler saveHandler = new ButtonHandler();
         saveButton.addActionListener(saveHandler);
 
-
-
         //Устанавливает операцию закрытия фрейма по умолчанию на "exit"
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
